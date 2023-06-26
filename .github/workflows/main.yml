@@ -22,7 +22,7 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        working-directory: "C:\Users\Kento Puleo\workspace\testbackend\newtest"
+        working-directory: C:\Users\Kento Puleo\workspace\testbackend\newtest
         run: npm ci
 
       - name: Run tests
